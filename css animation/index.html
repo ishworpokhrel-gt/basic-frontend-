@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="store.js" async></script>
+    <style>
+        .parent {
+            height: 400px;
+            width: 500px;
+            background: blue;
+        }
+
+        .child {
+            height: 50%;
+            width: 50%;
+            background: red;
+            /* -------with transition--------- */
+            /* transition: transform 2s linear; */
+            animation: right 2s ease-in-out infinite forwards alternate;
+
+        }
+
+        .parent:hover .child {
+            /* transform: translateY(100%); */
+           animation-play-state: paused;
+        }
+
+        @keyframes right {
+            0% {
+                    transform:translateX(0);
+                }
+
+            33% {
+                transform: translateY(100%);
+            }
+
+            66% {
+                transform: translateX(100%) translateY(100%);
+                background: black;
+            }
+
+            100% {
+                transform: translateX(100%);
+                background: cadetblue;
+            }
+
+                
+
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class='parent'>
+        <div class="child">
+
+        </div>
+    </div>
+
+</body>
+
+</html>

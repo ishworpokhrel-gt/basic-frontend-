@@ -1,0 +1,24 @@
+.container{
+    border: 2px solid black;
+    display:flex;
+    height:50vh;
+    flex-direction: row-reverse;
+    /* align-items: center; */
+    flex-wrap:nowrap;
+
+
+
+
+
+}
+
+.styling{
+    width: 80px;
+    height: 82px;
+    background: red;
+    margin: 2px 1px;
+    border: 1px solid black; 
+}
+.items2,.items4{
+    margin-top: 85px;
+}

@@ -1,0 +1,16 @@
+#input-el{
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    border: 2px solid green;
+}
+
+#input-btn{
+    background-color: green;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 6px;
+    margin-top: 8px;
+    border-radius: 3px;
+
+}

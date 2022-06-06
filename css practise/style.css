@@ -1,0 +1,64 @@
+h1{
+    font-size: x-large;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:underline;
+    color:rgb(0,0,0);
+    background-color:#000000;
+    border-radius:20px;
+    outline: 5px solid gray;
+    font-family:monospace;
+    width:50vw;
+    margin-bottom:20px;
+    margin: 35px auto;
+    background: url(./image/pexels-photo-3695238.jpeg);
+    opacity: 0.9;
+    
+}
+.box{
+    text-decoration: none;
+    padding: 10px;
+    line-height: 21px;
+    outline-color: blue;
+    opacity: 0.8;
+    letter-spacing: 3px;
+    word-spacing: 18px;
+    
+}
+
+#practise{
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    color:rgb(0,0,0);
+    font-weight:bold;
+    outline: 10px solid black;
+    padding:20px;
+    border-radius:10px;
+    text-indent:50px;
+    margin: 10px;
+    outline-offset: 10px;
+    background:url("./image/pexels-photo-3695238.jpeg");
+}
+
+body{
+    background: url("./image/pexels-photo-3482442.jpeg");
+}
+
+@media screen and (min-width:600px){
+    body{
+        background:red;
+    }
+    
+
+}
+div{
+    background-color: pink;
+}
+#first{
+    background: black;
+}
+
+
+    
+
+
